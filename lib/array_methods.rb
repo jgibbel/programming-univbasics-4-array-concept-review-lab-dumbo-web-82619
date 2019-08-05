@@ -27,4 +27,4 @@ def find_min_value(array)
     low_test = (array[count] > low ? low=array[count] : low=low)
   end
   return low
-
+end
