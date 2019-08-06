@@ -26,7 +26,7 @@ def find_min_value(array)
   #Add your solution here
 count = 1
 low = array[0]
- while count < array.length do
+ while count < array.length+1 do
   low_test = (array[count] > low ? low=array[count] : low=low)
   count += 1
  end
