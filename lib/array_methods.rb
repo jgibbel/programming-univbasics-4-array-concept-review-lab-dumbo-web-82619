@@ -14,9 +14,9 @@ end
 def find_max_value(array)
   # Add your solution here
  count = 1
-  high = array[0]
-  while count < array.length do
-    high_test = (array[count] > high ? high=array[count] : hig#h=high)
+ high = array[0]
+ while count < array.length do
+ high_test = (array[count] > high ? high=array[count] : high=high)
   end
   return high
 end
