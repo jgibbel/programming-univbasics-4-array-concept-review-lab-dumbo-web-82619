@@ -8,7 +8,7 @@ def find_element_index(array, value_to_find)
     else count+=1
   end
 end
-  puts done
+  puts 'done'
 end
 
 #def find_max_value(array)
