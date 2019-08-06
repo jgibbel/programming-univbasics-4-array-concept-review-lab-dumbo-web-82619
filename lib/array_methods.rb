@@ -11,15 +11,15 @@ end
   puts 'done'
 end
 
-#def find_max_value(array)
+def find_max_value(array)
   # Add your solution here
- # count = 1
-  #high = array[0]
-  #while count < array.length do
-  #  high_test = (array[count] > high ? high=array[count] : hig#h=high)
-#  end
-#  return high
-#end
+ count = 1
+  high = array[0]
+  while count < array.length do
+    high_test = (array[count] > high ? high=array[count] : hig#h=high)
+  end
+  return high
+end
 
 #def find_min_value(array)
   # Add your solution here
